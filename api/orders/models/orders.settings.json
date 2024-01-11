@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Orders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "identifier": {
+      "type": "string"
+    },
+    "total": {
+      "type": "decimal"
+    },
+    "address": {
+      "type": "string"
+    },
+    "products": {
+      "type": "json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "street": {
+      "type": "text"
+    },
+    "company": {
+      "type": "string"
+    },
+    "province": {
+      "type": "text"
+    },
+    "postalcode": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "payment": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "text"
+    },
+    "status": {
+      "type": "string"
+    },
+    "coments": {
+      "type": "text"
+    }
+  }
+}

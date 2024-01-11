@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_weight_dimensions",
+  "info": {
+    "name": "Dimension",
+    "icon": "qrcode"
+  },
+  "options": {},
+  "attributes": {
+    "width": {
+      "type": "decimal"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "Lengths": {
+      "type": "decimal"
+    },
+    "weight": {
+      "type": "decimal"
+    }
+  }
+}

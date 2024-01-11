@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statuses",
+  "info": {
+    "name": "Status"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Pending": {
+      "type": "boolean"
+    },
+    "Dispatched": {
+      "type": "boolean"
+    },
+    "Processed": {
+      "type": "boolean"
+    },
+    "Delivered": {
+      "type": "boolean"
+    }
+  }
+}
